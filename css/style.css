@@ -2732,6 +2732,10 @@ h3 {
     padding-top: 100px;
     padding-bottom: 40px;
   }
+
+  .single_delicious .info h3 {
+    font-size: 24px!important;
+  }
 }
 
 /* line 12, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
