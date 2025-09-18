@@ -512,8 +512,8 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_section_title.scss */
 .section_title span {
-  color: #F2C64D;
-  font-size: 30px;
+  color: #F0542C;
+  font-size: 40px;
   font-weight: 400;
   margin-bottom: 18px;
   display: block;
@@ -2718,12 +2718,12 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
 .best_burgers_area {
-  padding-bottom: 115px;
   padding-top: 40px;
-  background-image: url(../img/banner/burger_bg.png);
+  background-image: url("../img/notebook-dark.png");
+  /* background-image: url(../img/);
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 @media (max-width: 767px) {
@@ -2740,7 +2740,7 @@ h3 {
 
 /* line 12, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
 .best_burgers_area .single_delicious {
-  margin-bottom: 35px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: 767px) {
@@ -2767,14 +2767,15 @@ h3 {
 
 /* line 23, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
 .best_burgers_area .single_delicious .thumb img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  border-radius: 30%;
+  width: 180px;
 }
 
 /* line 27, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
 .best_burgers_area .single_delicious .info {
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 @media (max-width: 767px) {
@@ -2796,7 +2797,7 @@ h3 {
 
 /* line 38, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
 .best_burgers_area .single_delicious .info h3 {
-  font-size: 30px;
+  font-size: 28px;
   color: #1A0D01;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
